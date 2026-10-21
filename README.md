@@ -4,7 +4,8 @@
   <a href="https://linkedin.com/in/sahidh-h">LinkedIn</a> ·
   <a href="mailto:sahidhullah@gmail.com">Email</a> ·
   <a href="https://freelance-radar-five.vercel.app">Freelance Radar</a> ·
-  <a href="https://job-scraper-liart.vercel.app">Job Scraper</a>
+  <a href="https://job-scraper-liart.vercel.app">Job Scraper</a> ·
+  <a href="https://sahidhh.github.io/portfolio">Portfolio</a>
 </p>
 
 I build full-stack products where an LLM is a component, not the product — and I'm careful about *where* it earns its place. Recent work:
@@ -13,6 +14,9 @@ I build full-stack products where an LLM is a component, not the product — and
 - **AI scoring pipelines** — scheduled scrapers that pull structured data from job boards, gate it with cheap keyword filters, then hand only the survivors to an LLM scorer and deliver a Telegram digest.
 - **Scheduled agent runs** — web-search/scrape agents that return structured data on a cron, feeding keyless job feeds into a local-first CRM.
 - **Document-AI POC** — OCR-backed word-level PDF diff with a text-layer fast path and Tesseract fallback for scanned pages.
+- **Pi fleet** — a fleet of free-model coding agents (investigator/reviewer/builder roles) routed through a self-hosted LLM gateway on a home server, offloading low-stakes coding tasks off the main paid model.
+- **Self-hosted ops on a home server** — a DietPi box running unattended workers: a lead-prospecting pipeline (evidence-backed research, drafts a human approves), a music download service, file-based task sync over Syncthing, and an unattended implementation runner that finishes written plans overnight and asks me on my phone only when it must.
+- **Small hosted products** — a Cloudflare Worker + D1 inventory app with an audit log and gated nightly backups, handed over to a real user.
 
 Bias toward local-first, keyless, and cheap-to-run. If it can be a keyword match instead of an API call, it is.
 
@@ -29,7 +33,21 @@ Bias toward local-first, keyless, and cheap-to-run. If it can be a keyword match
 | **[claudehat](https://github.com/sahidhh/claudehat)** | Cross-platform CLI to manage multiple Claude Code profiles (settings, MCP servers, skills) and switch between them. | CLI |
 | **[pdf-diff-tool](https://github.com/sahidhh/pdf-diff-tool)** | Side-by-side word-level PDF diff in the browser. PyMuPDF for text layers, Tesseract OCR fallback for scanned pages. Runs in memory, nothing written to disk. | Python, FastAPI, PyMuPDF, Tesseract |
 | **[benchmark](https://github.com/sahidhh/benchmark)** | Workflow benchmark for AI engineering profiles — same model, same task, different profile; records tokens, cost, latency and scope adherence. | Python, OpenRouter |
-| **[Hub / Learning Cards](https://github.com/sahidhh/learning-card-generator)** · [live](https://learning-card-generator.vercel.app) | Mobile-first Next.js control center hosting mini-apps; Learning Cards turns a JSON feed into swipeable cards with PNG/PDF/MD export and Supabase persistence. | Next.js, Supabase |
+| **[Portfolio](https://sahidhh.github.io/portfolio)** · [source](https://github.com/sahidhh/portfolio) | Case studies, automation overview and resume PDF built from Markdown. Plain HTML/CSS, no build step. | HTML, CSS, Python |
+| **[lenovo-battery-tray](https://github.com/sahidhh/lenovo-battery-tray)** | Windows tray + hotkeys + CLI for Lenovo charge mode and Fn+Q power mode. No admin, no Vantage, in-box PowerShell 5.1. | PowerShell || **[Hub / Learning Cards](https://github.com/sahidhh/learning-card-generator)** · [live](https://learning-card-generator.vercel.app) | Mobile-first Next.js control center hosting mini-apps; Learning Cards turns a JSON feed into swipeable cards with PNG/PDF/MD export and Supabase persistence. | Next.js, Supabase |
+
+---
+
+## Recent private work
+
+Code is private; walkthroughs are on the [portfolio](https://sahidhh.github.io/portfolio).
+
+- **prospect-agent** — daily scout → research → judge → draft pipeline for freelance outreach; every claim carries evidence, a human approves each send.
+- **taskfs** — tasks as plain files synced by Syncthing across laptop, box and phone, per-field conflict merge, calendar push.
+- **impl-kit** — unattended Claude Code runs in tmux: plan lint, builder/judge subagents, bounded retries, phone prompts via ntfy.
+- **music-dl** — search and batch download service with YouTube fallback, feeding a self-hosted music server.
+- **medstock** — Cloudflare Worker + D1 inventory app with audit trail and verified nightly backups.
+- **widget-base** — Android home-screen widget platform (in design: research, mockup, render-engine decision).
 
 ---
 
