@@ -1,10 +1,10 @@
 # Sahidhullah H
-**Backend Engineer · .NET, PostgreSQL, Python · Chennai (IST), open to remote & contract**
+**L2 Software Engineer · Full Stack .NET, C#, React, Angular · Chennai (IST), open to remote & contract**
 
 [Portfolio](https://sahidhh.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/sahidh-h/) · [Email](mailto:sahidhullah@gmail.com) · [Resume](https://sahidhh.github.io/portfolio/resume/Sahidhullah_H_Resume.pdf)
 
-Two years building production .NET + PostgreSQL backends (tax-review and healthcare platforms).
-Reporting endpoints ~8 s → <2 s; CQRS migration cut new-feature time from ~2 weeks to ~4 days.
+2+ years building production .NET and PostgreSQL systems with React and Angular front ends (tax-review and healthcare platforms).
+Reporting endpoints went from about 8 s to under 2 s; a CQRS migration cut new-tool time from about 2 weeks to 4 days.
 On the side: small tools where an LLM is the last, cheapest-possible step, never the first.
 
 ## Selected projects
@@ -19,10 +19,10 @@ On the side: small tools where an LLM is the last, cheapest-possible step, never
 More private tooling; walkthroughs on request.
 
 ## Stack
-C#, .NET 8, EF Core, PostgreSQL, Azure · Python, FastAPI · TypeScript, Next.js, React · GitHub Actions, Docker, Linux
+C#, .NET 8, ASP.NET Core, EF Core, PostgreSQL, Azure · React, Angular, TypeScript · Python, FastAPI · GitHub Actions, Docker, Linux
 
 ## How I work
 - LLM calls are the expensive last stage, never the first. Heuristics gate; the model decides only what heuristics can't.
 - Ship the smallest thing that works, then measure.
 
-Open to backend roles (remote / Chennai) and contract work: [sahidhullah@gmail.com](mailto:sahidhullah@gmail.com)
+Open to full stack .NET roles (remote / Chennai) and contract work: [sahidhullah@gmail.com](mailto:sahidhullah@gmail.com)
